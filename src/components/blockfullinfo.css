@@ -1,0 +1,32 @@
+.blockfullinfo{
+  height: 100vh;
+  padding: 7rem 1rem 3rem 1rem;   
+}
+
+.blockfullinfo__list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%
+}
+
+.blockfullinfo__list > *{
+  padding-bottom: 2rem;
+  font-size: 1.3rem;
+}
+
+.blockfullinfo__list > * span{
+  font-weight: bold;
+}
+
+.blockfullinfo__list > *:last-child{
+  overflow-y: scroll;
+}
+
+.blockfullinfo__list > *:last-child li{
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+
+

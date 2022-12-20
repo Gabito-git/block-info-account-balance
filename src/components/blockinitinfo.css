@@ -1,0 +1,8 @@
+.blockinitinfo{
+  border-radius: 5px;
+  border: 1px solid lightblue;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
